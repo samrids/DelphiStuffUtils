@@ -1,0 +1,17 @@
+var
+  AColumn: TcxGridDBColumn;
+  ASummaryItem: TcxDataSummaryItem;
+  AValue : String;
+  ASummaryIndex: Integer;
+begin
+    AColumn := Dbtv.GetColumnByFieldName('Amount');
+    if AColumn <> nil then
+    begin
+      ASummaryItem := Dbtv.DataController.Summary.FooterSummaryItems.GetDataItem(AColumn.Index, spFooter);
+      if ASummaryItem <> nil then
+      begin
+        ASummaryIndex := ASummaryItem.Index;
+        AValue := VarToStr(Dbtv.DataController.Summary.FooterSummaryValues[ASummaryIndex]);
+      end;
+    end;
+end;

@@ -7,7 +7,7 @@ My Delphi Utilities
   Find average with set of Numeric (numeric array)
 3. CheckTHCIDNueric.SQL
   Verify Numeric Thai national ID with SQL
-4. DelphiStuff2pas
+4. DelphiStuff2.pas
   Get footer summary with cxGrid
 5. VerifyTHCID.FR3
   Verify Thai national ID with Fastreport script

@@ -1,6 +1,6 @@
 uses DateUtils;
 
-function GetSaturdayBetweenDate(const A: TDate; const B: TDate): Integer;
+function GetSaturdaySundayBeetweenDate(const A: TDate; const B: TDate): Integer;
 var
   DaysDiff: integer;
   tmpDate: TDate;

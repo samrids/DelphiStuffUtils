@@ -17,3 +17,5 @@ My Delphi Utilities
   Verify Thai national ID with SQL
 8. testping_serv.dpr
   Ping to serve with Delphi
+9. GetDuedate.PAS
+  Get Due date (with out holiday

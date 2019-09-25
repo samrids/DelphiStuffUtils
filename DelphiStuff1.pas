@@ -30,6 +30,6 @@ procedure TForm1.Button1Click(Sender: TObject);
 var
  c: Integer;
 begin
-  c := GetNormalHolidayBetweenDate(DateTimePicker1.Date, DateTimePicker2.Date);
+  c := GetSaturdaySundayBeetweenDate(DateTimePicker1.Date, DateTimePicker2.Date);
   Self.Caption:= format('%d',[c]);
 end;
